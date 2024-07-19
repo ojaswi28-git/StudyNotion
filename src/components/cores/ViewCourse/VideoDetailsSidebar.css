@@ -1,0 +1,13 @@
+
+
+@media (max-width: 950px) {
+    .videoSidebar{
+        position: fixed;
+        z-index: 800; left: -100%; top: 60px;
+        transition: all 0.3s linear;
+    }
+
+    .videoSidebar.active{
+        left: 0;
+    }
+}

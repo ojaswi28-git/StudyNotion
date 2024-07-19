@@ -1,0 +1,24 @@
+
+
+form input[type=radio]{
+    appearance: none;
+    display: none;
+}
+
+.flexcolgap{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.bgframe{
+    background: url('../../../assets/Images/frame.png');
+}
+
+.eyebutton{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    font-size: 16px;
+}
